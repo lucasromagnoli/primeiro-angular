@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursosComponent implements OnInit {
 
+  cursos: string[] = ['Java 8', 'Spring Framework', 'Spring Cloud', 'Spring Batch', 'Angular 2+']
   constructor() { }
 
   ngOnInit(): void {
